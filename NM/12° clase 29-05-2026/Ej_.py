@@ -18,5 +18,9 @@ plt.figure(1)
 plt.plot(t1, puntos, color="red")
 plt.plot(t2, puntosHEUN, color="blue")
 plt.plot(t3, puntosRK, color="green")
-plt.grid()
-plt.show()
+plt.xlabel("t") # Nombre del eje X
+plt.ylabel("y") # Nombre del eje Y
+plt.title("EDO") # Titulo del grafico
+plt.grid() # Grilla del grafico
+plt.legend() # Leyenda de los graficos
+plt.show() # Muestra el grafico
